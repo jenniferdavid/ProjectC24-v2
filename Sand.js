@@ -17,7 +17,7 @@ class Sand{
         translate(pos.x, pos.y);
         strokeWeight(3);
         fill('red')
-        ellipseMode(CENTER);
+        ellipseMode(RADIUS);
         ellipse(0, 0, this.radius, this.radius);
         pop();
     }
