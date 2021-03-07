@@ -17,7 +17,7 @@ class Rubber{
         translate(pos.x, pos.y);
         strokeWeight(3);
         fill('darkblue')
-        ellipseMode(CENTER);
+        ellipseMode(RADIUS);
         ellipse(0, 0, this.radius, this.radius);
         pop();
     }
